@@ -1,0 +1,52 @@
+.img-fluid {
+    margin-left: 10%;
+    margin-top: 10%;
+    max-width: 80%;
+    height: auto;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+    margin-left: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 80%;
+    height: 92%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: #272635;
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    text-align: center;
+}
+    
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+    
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 0.85rem;
+}
+    
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+}
+
+.valores {
+    background-image: url(../img/galeria8.jpg);
+}
